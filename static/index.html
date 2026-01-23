@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDD Agent - Intelligent Search</title>
+    <link rel="stylesheet" href="/static/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>PDD Agent</h1>
+            <p class="subtitle">Powered by DeepSeek & DrissionPage</p>
+        </header>
+
+        <div id="results" class="results-area">
+            <!-- Messages will appear here -->
+            <div class="message agent">
+                你好！我是你的拼多多购物助手。请输入商品名称，无论是比价、查看详情还是下载图片，我都能帮你搞定！
+            </div>
+        </div>
+
+        <div class="search-section">
+            <input type="text" id="search-input" placeholder="输入你想找的商品..." autocomplete="off">
+            <button id="search-btn">发送</button>
+        </div>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+
+</html>

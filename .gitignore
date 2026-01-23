@@ -113,3 +113,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Data and Backup
+*.db
+*.json
+*.png
+DrissionPage_bak/
+pdd_downloads/
+pdd_images/
+debug_*.html
